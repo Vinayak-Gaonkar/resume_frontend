@@ -1,0 +1,40 @@
+.font-s{
+font-size: 34px;
+}
+.wd-22{
+    max-width: 148vh !important;
+}
+
+.mr-r{
+    margin: 15px;
+margin-right: 4em;
+}
+.mr-25{
+    margin-right: 6%;
+}
+.envolop-mr{
+    margin-left: 7.2em !important;
+}
+.box-shdw{
+    box-shadow: 0 1px 6px rgba(0,0,0,.3);
+}
+
+.mrl-16{
+    margin-left: 12% !important;
+}
+
+@media (max-width: 1024px){
+    i.envolop-mr{
+        margin-left: 1.2em !important;
+    }
+    p.freelance{
+        display: none !important;
+    }
+    i.mr-r{
+        margin-right: 1em;
+    }
+    .mrl-16{
+        margin-left: 6% !important;
+    }
+
+}

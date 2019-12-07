@@ -1,0 +1,86 @@
+@import "../../../assets/css/horizontal-time.scss";
+.mr-t{
+    margin-top: 6%;
+}
+.mr-b{
+    margin-bottom: 10%;
+}
+.top{
+    margin-top: 200px !important;
+}
+
+.head-style {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1%;
+  }
+
+.main-head{
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #232323;
+}
+
+.title-small{
+    font-size: 16px;
+    line-height: 32px;
+    color: #6c757d!important;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: bold;
+}
+
+  .h-align{
+    width: 13%;
+    margin-left: 18%;
+  }
+
+  .p-20{
+      padding-left: 5em;
+  }
+
+
+  .mt-15{
+      margin-top: 7em;
+  }
+
+.pl5{
+padding-left: 5em;
+}
+.s-card{
+    width: 158px;
+  height: 118px;
+  background: $white;
+  box-shadow: 0 3px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+ // position: absolute;
+  //top: -74px;
+  // display: none;
+  animation-duration: .2s;
+  transition: left .3s ease;
+}
+.content{
+    display: flex;
+}
+
+.icon{
+    font-size: 4em;
+    margin: 28px 44px;
+}
+
+.hobbis:hover{
+    background: #ffc107;
+    .icon{
+        color: black;
+    }
+}
+
+@media (max-width:768px){
+    .content{
+        display: block;
+        padding-left: 7em;
+    }
+}

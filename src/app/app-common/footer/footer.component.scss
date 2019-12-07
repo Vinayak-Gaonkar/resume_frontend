@@ -1,0 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif !important;
+  }
+.w-10{
+    width: 10%;
+}
+.pt-4{
+padding-top: 4% !important;
+}
+
+.footer {
+    // position: fixed;
+    // left: 0;
+    // bottom: 0;
+    width: 100%;
+    // background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+.icon{
+    border-radius: 50%;
+}
+.icon:hover{
+    background: #ffc107;
+}
+
+.image{
+    order: 2;
+}
+.disc{
+    order: 1;
+}
+

@@ -1,0 +1,26 @@
+@import "../../../assets/css/progressbar.css";
+@import "../../../assets/css/donut-chart.css";
+
+*{
+    font-family: 'Roboto', sans-serif !important;
+  }
+
+ .head-style {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1%;
+  }
+  .m-b{
+      margin-bottom: 6%;
+  }
+  .arrow{
+      font-size: 15px;
+      color: #f9d700;
+      margin-right: 10px;
+  }
+
+@media  (max-width: 767px) {
+  
+    .row1 { display: block !important;}
+    
+  }

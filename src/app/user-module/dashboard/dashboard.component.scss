@@ -1,0 +1,36 @@
+*{
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.header-color{
+  color:#232323;
+}
+.p-t{
+  margin-top: 13%;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 5s linear;
+}
+
+// .hidden {
+//   visibility: hidden;
+//   opacity: 0;
+//   transition: visibility 0s 2s, opacity 2s linear;
+// }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .row { display: flex; flex-flow: column-reverse; }
+
+
+  .image{
+      order: 2;
+  }
+  .disc{
+      order: 1;
+  }
+  
+}
