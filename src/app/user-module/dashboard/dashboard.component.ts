@@ -17,7 +17,7 @@ export class DashboardComponent implements OnInit {
     this.show=true
   }
   openResume() {
-    window.open('../../../assets/vinayak2019.pdf', '_blank');
+    window.open('./assets/vinayak_CV.pdf', '_blank');
   }
 
 }
